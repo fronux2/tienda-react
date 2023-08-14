@@ -1,0 +1,15 @@
+
+
+
+.card{    
+    background-color: yellowgreen;
+    display: flex;
+    border: 2px solid;
+    border-radius: 4px;    
+    flex-direction: column;    
+    margin: 10px;
+    height: 300px;
+    width: 180px;
+    
+}
+
