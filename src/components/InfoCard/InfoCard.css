@@ -1,0 +1,14 @@
+
+.info-card img{
+    width: 100%;
+    height: 100%;
+}
+.info-card{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;    
+    width: 100%;
+    height: 100%;
+    background-color: burlywood;
+    gap: 1px;
+}

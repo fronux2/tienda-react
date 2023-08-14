@@ -1,6 +1,6 @@
 import './index.css'
 import ProductCard from '../../components/ProductCard/ProductCard';
-import InfoCard from '../../components/InfoCard/InfoCard';
+import InfoCard from '../../components/InfoCard/InfoCard.jsx';
 import { Fragment } from 'react';
 // En el archivo 'IndexPage.jsx'
 const IndexPage = () => {
@@ -25,9 +25,14 @@ const IndexPage = () => {
                 <ProductCard/>
                 <ProductCard/>
                 <ProductCard/>
+                <ProductCard/>
+                <ProductCard/>
+                <ProductCard/>
             </section>
-            <section className="section-info">
-                <infoCard/>
+            <section className='section-info'>               
+                <InfoCard/>
+                <InfoCard/>
+                <InfoCard/>
             </section>
         </div>
 
