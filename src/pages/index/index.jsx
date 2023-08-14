@@ -29,10 +29,12 @@ const IndexPage = () => {
                 <ProductCard/>
                 <ProductCard/>
             </section>
+            
             <section className='section-info'>               
                 <InfoCard/>
                 <InfoCard/>
                 <InfoCard/>
+                
             </section>
         </div>
 
